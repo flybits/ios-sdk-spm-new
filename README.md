@@ -8,7 +8,7 @@ Add the URL of this repository to your Xcode Project.
 
 Go to *File* > *Swift Packages* > *Add Package Dependency*, and paste in the link to this repository:
 
-`https://github.com/flybits/ios-sdk-spm.git`
+`https://github.com/flybits/ios-sdk-spm-new.git`
 
 ## Libraries
 
