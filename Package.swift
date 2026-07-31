@@ -10,12 +10,12 @@ let package = Package(
     .library(name: "Core", targets: ["FlybitsSDK", "FlybitsPushSDK", "FlybitsKernelSDK", "FlybitsContextSDK"]),
   ],
   targets: [
-    .binaryTarget(name: "FlybitsSDK", url: "https://sdks.flybits.com/ios/SPM/Flybits/5.2.0-rc1/FlybitsSDK.xcframework.zip", checksum: "3b348df5b85d4e3b201d4540d961f10445e44ecddbd7740837cc948581191da6"),
-    .binaryTarget(name: "FlybitsPushSDK", url: "https://sdks.flybits.com/ios/SPM/Flybits/5.2.0-rc1/FlybitsPushSDK.xcframework.zip", checksum: "a5be3bc22275f174e8f9d01622a45ebd3a0d05f3715afb28855fd303fcf29cf4"),
-    .binaryTarget(name: "FlybitsKernelSDK", url: "https://sdks.flybits.com/ios/SPM/Flybits/5.2.0-rc1/FlybitsKernelSDK.xcframework.zip", checksum: "a32723a704434b5bbffafeb206d03373b0f593e04a6e1d70a0a6d0fd8f4c473d"),
-    .binaryTarget(name: "FlybitsContextSDK", url: "https://sdks.flybits.com/ios/SPM/Flybits/5.2.0-rc1/FlybitsContextSDK.xcframework.zip", checksum: "07523d43e5b9c053d90c9f70359b0ea44ae8776ab8980dbac1a6b0c21a86b31f"),
-    .binaryTarget(name: "FlybitsCoreConcierge", url: "https://sdks.flybits.com/ios/SPM/Flybits/5.2.0-rc1/FlybitsCoreConcierge.xcframework.zip", checksum: "674993eff574adc2597867c3db973ca9a1df2b651cd6bfe2c02f37b85e91d13e"),
-    .binaryTarget(name: "FlybitsConcierge", url: "https://sdks.flybits.com/ios/SPM/Flybits/5.2.0-rc1/FlybitsConcierge.xcframework.zip", checksum: "4601680a19546f2e2257e3da33194f2782f329db1da3e3cc3947482ebde5fa04"),
-    .binaryTarget(name: "FlybitsContextLocationPluginSDK", url: "https://sdks.flybits.com/ios/SPM/Flybits/5.2.0-rc1/FlybitsContextLocationPluginSDK.xcframework.zip", checksum: "a953855cc6ad44377d2c476d950d6f041653a45c55d7065bd12328cc9238db28"),
+    .binaryTarget(name: "FlybitsSDK", url: "https://sdks.flybits.com/ios/SPM/Flybits/5.2.0/FlybitsSDK.xcframework.zip", checksum: "4916d34b63493b1b7ddf10dbf7de621ec4ed76e78e99d1420fe2973a545b5632"),
+    .binaryTarget(name: "FlybitsPushSDK", url: "https://sdks.flybits.com/ios/SPM/Flybits/5.2.0/FlybitsPushSDK.xcframework.zip", checksum: "accfaf74e0773bc774aaa00bb843fe386aebf8d1cdd5d981cc71b1944e828f71"),
+    .binaryTarget(name: "FlybitsKernelSDK", url: "https://sdks.flybits.com/ios/SPM/Flybits/5.2.0/FlybitsKernelSDK.xcframework.zip", checksum: "b6c1bdc343f3a907a8ab056e661238af391cb94787dc4c9dd9956bcdf872fbe3"),
+    .binaryTarget(name: "FlybitsContextSDK", url: "https://sdks.flybits.com/ios/SPM/Flybits/5.2.0/FlybitsContextSDK.xcframework.zip", checksum: "ef27f87e776673f438b31db424f1dee12afb76bd592ac40affb9c69a3078f148"),
+    .binaryTarget(name: "FlybitsCoreConcierge", url: "https://sdks.flybits.com/ios/SPM/Flybits/5.2.0/FlybitsCoreConcierge.xcframework.zip", checksum: "388691a726adfa57d816b3c040faee73aa4600fb48dbe7342a112face3f4d210"),
+    .binaryTarget(name: "FlybitsConcierge", url: "https://sdks.flybits.com/ios/SPM/Flybits/5.2.0/FlybitsConcierge.xcframework.zip", checksum: "db1e440096499636ac6ceb5c111fe2254327ad682e4e401b44119e2b8e0145d5"),
+    .binaryTarget(name: "FlybitsContextLocationPluginSDK", url: "https://sdks.flybits.com/ios/SPM/Flybits/5.2.0/FlybitsContextLocationPluginSDK.xcframework.zip", checksum: "7a7cfdd882d77cba716678db4c83161a2e386d93088ce23635459c10b953f4eb"),
   ]
 )
